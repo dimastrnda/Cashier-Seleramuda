@@ -19,7 +19,7 @@ A web-based Point of Sale (POS) system designed to help manage sales transaction
 * PHP
 * CodeIgniter 3
 * MySQL
-* HTML5
+* HTML
 * Bootstrap
 * JavaScript
 * AJAX
