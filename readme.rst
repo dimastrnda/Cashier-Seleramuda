@@ -1,4 +1,4 @@
-# SeleraMuda POS
+-- SeleraMuda POS --
 
 A web-based Point of Sale (POS) system designed to help manage sales transactions, products, inventory, and sales records for SeleraMuda Store.
 
