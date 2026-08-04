@@ -1,0 +1,281 @@
+:root {
+    --darkGray: #2D3748;
+	--gray: #4a5568;
+}
+
+/* General Styles */
+body {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h2,
+h3 {
+	margin: 0;
+}
+
+/* Navbar */
+.navbar {
+	background: white;
+	display: flex;
+	height: 85px;
+	align-items: center;
+	padding: 0 10%;
+	justify-content: space-between;
+	box-shadow: 0 4px 8px 0 rgba(1, 1, 1, 0.2);
+}
+
+.navbar h1 {
+	font-size: 1.5rem;
+	font-weight: bold;
+    color: #4facfe;
+}
+
+.navbar div li {
+	display: inline-block;
+	margin-left: 2rem;
+	cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar div p:hover {
+	color: #ffd700;
+}
+
+/* Hero Section */
+.hero-container {
+	display: flex;
+	height: 470px;
+	padding: 0 10%;
+}
+
+.hero-container > div {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero-container h1 {
+	font-size: 60px;
+	margin: 20px 0;
+}
+
+.hero-container p {
+	font-size: 30px;
+	color: var(--gray);
+}
+
+.hero-container > img {
+	width: 50%;
+	height: 300px;
+	align-self: center;
+}
+
+/* Description Section */
+.description-container {
+	height: 280px;
+	margin: 40px 0;
+	padding: 0 10%;
+    display: flex;
+}
+
+.description-container > div { 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container h2 {
+    color: var(--darkGray);
+}
+
+.description-container p {
+    color: var(--gray);
+}
+
+.description-container > div > div {
+    width: 400px;
+}
+
+.description-container > img { 
+    width: 40%;
+    object-fit: cover;
+}
+
+/* Features Section */
+#features {
+	background-color: #f8f9fa;
+	padding: 4rem 2rem;
+	height: 260px;
+}
+
+#features h2 {
+	font-size: 2rem;
+	color: #333;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+#features .grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+}
+
+#features .bg-white {
+	padding: 2rem;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#features .bg-white:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#features i {
+	color: #0056b3;
+	margin-bottom: 1rem;
+}
+
+#features h3 {
+	font-size: 1.25rem;
+	color: #333;
+	margin: 1rem 0;
+}
+
+#features p {
+	color: #555;
+	font-size: 0.9rem;
+}
+
+/* Pricing Section */
+#pricing {
+	background-color: #fff;
+	padding: 4rem 2rem;
+}
+
+#pricing h2 {
+	font-size: 2rem;
+	color: #333;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+#pricing .grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+}
+
+#pricing .bg-gray-100 {
+	padding: 2rem;
+	background-color: #4facfe;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+#pricing h3 {
+	font-size: 1.25rem;
+	color: #333;
+}
+
+#pricing p {
+	color: #555;
+	font-size: 1rem;
+	margin: 1rem 0;
+}
+
+#pricing button {
+	background-color: #0056b3;
+	color: #fff;
+	padding: 0.75rem 1.5rem;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#pricing button:hover {
+	background-color: #004090;
+}
+
+/* SignUp */
+#signup {
+	background-color: #f8f9fa;
+	padding: 4rem 2rem;
+	height: 280px;
+}
+
+#signup h2 {
+	font-size: 2rem;
+	color: #333;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+#signup .grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+}
+
+#signup .bg-white {
+	padding: 2rem;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#signup .bg-white:hover {
+	transform: translateY(-10px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#signup i {
+	color: #0056b3;
+	margin-bottom: 1rem;
+}
+
+#signup h3 {
+	font-size: 1.25rem;
+	color: #333;
+	margin: 1rem 0;
+}
+
+#features p {
+	color: #555;
+	font-size: 0.9rem;
+}
+#signup a {
+	background-color: #0056b3;
+	color: #fff;
+	padding: 0.75rem 1.5rem;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+/* footer */
+footer h1 {
+	font-size: 1.5rem;
+	font-weight: bold;
+    color: #4facfe;
+}
