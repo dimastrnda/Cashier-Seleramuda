@@ -2,7 +2,7 @@
 
 A web-based Point of Sale (POS) system designed to help manage sales transactions, products, inventory, and sales records for SeleraMuda Store.
 
-- Features
+> Features
 
 * User authentication and role-based access
 * Product and category management
@@ -14,7 +14,7 @@ A web-based Point of Sale (POS) system designed to help manage sales transaction
 * Sales history and reports
 * User management
 
-- Technologies
+> Technologies
 
 * PHP
 * CodeIgniter 3
@@ -24,7 +24,7 @@ A web-based Point of Sale (POS) system designed to help manage sales transaction
 * JavaScript
 * AJAX
 
-- System Roles
+> System Roles
 
 # Admin
 
@@ -34,7 +34,7 @@ Manage users, products, categories, inventory, and sales reports.
 
 Process sales transactions, manage the shopping cart, and generate receipts.
 
-- Project Overview
+> Project Overview
 
 SeleraMuda POS was developed to digitalize the manual sales process and provide a more efficient way to manage daily transactions and inventory.
 
