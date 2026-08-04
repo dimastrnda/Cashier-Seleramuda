@@ -43,7 +43,7 @@ The system applies the MVC architecture provided by CodeIgniter 3 and uses AJAX 
 
 .. raw:: html
 
-   <img src="Salestransaction.png" alt="Teks Alternatif" width="100%">
+   <img src="SalesTransaction.png" alt="Teks Alternatif" width="100%">
 
 
 
