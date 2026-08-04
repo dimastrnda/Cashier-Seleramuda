@@ -41,8 +41,9 @@ SeleraMuda POS was developed to digitalize the manual sales process and provide 
 The system applies the MVC architecture provided by CodeIgniter 3 and uses AJAX for dynamic transaction processes.
 
 
-.. image:: Sales_transaction.png
-   :alt: Teks Alternatif
+.. raw:: html
+
+   <img src="Sales_transaction.png" alt="Teks Alternatif" width="100%">
 
 
 
